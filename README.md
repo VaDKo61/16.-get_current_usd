@@ -38,4 +38,4 @@ python manage.py test currency
 - **Django 5**
 - **requests**
 - **SQLite** (по умолчанию)
-- **Flake8** (по умолчанию)
+- **Flake8**
