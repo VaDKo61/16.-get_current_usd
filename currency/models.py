@@ -10,7 +10,11 @@ class ExchangeRate(models.Model):
         rate (Decimal): Значение курса на момент запроса.
         timestamp (DateTime): Время получения курса.
     """
-    rate = models.DecimalField(max_digits=10, decimal_places=4, verbose_name='Курс USD к RUB')
+    rate = models.DecimalField(
+        max_digits=10,
+        decimal_places=4,
+        verbose_name='Курс USD к RUB'
+    )
     timestamp = models.DateTimeField(default=now, verbose_name='Время получения курса')
 
     def __str__(self) -> str:

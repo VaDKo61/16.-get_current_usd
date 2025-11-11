@@ -7,4 +7,3 @@ class ExchangeRateAdmin(admin.ModelAdmin):
     list_display = ('rate', 'timestamp')
     list_filter = ('timestamp', )
     ordering = ('-timestamp', )
-

@@ -25,6 +25,7 @@ API-эндпоинт [`/get-current-usd/`](http://localhost:8000/get-current-usd
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+python manage.py test currency
 ```
 
 После запуска открой в браузере:  
@@ -37,3 +38,4 @@ python manage.py runserver
 - **Django 5**
 - **requests**
 - **SQLite** (по умолчанию)
+- **Flake8** (по умолчанию)
